@@ -3,7 +3,7 @@
 Vi skal forbedre hackathon templaten så den bedre kan håndtere fejl og give ordentlige beskeder, der kan bruges til at debugge.
 Error handling er vigtigt både for programmøren bag programmet, men også for brugerne, så de selv kan troubleshoot deres problemer.
 
-# Error Handling i Endpoints
+*Error Handling i Endpoints*
 Kig på jeres endpoints. Lige nu står der noget i stil med:
 
 return Response.status(200).type(MediaType.APPLICATION_JSON).entity(out).build();
