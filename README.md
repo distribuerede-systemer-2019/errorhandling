@@ -18,7 +18,7 @@ Prøv at lave et if-else statement, der returnerer status 400 i stedet med en ti
 Eksempel på hvordan man returnerer fejl 400:
 return Response.status(400).entity("Could not find customer").build();
 
-Prøv at slå op på nettet hvad de forskellige fejlkoder betyder (200, 400, 404, 500).
+Prøv at slå op på nettet hvad de forskellige fejlkoder betyder (e.g. 200, 400, 404, 500).
 
 # Error Handling i Controller 
 Lad os nu sige at vi har en bruger, der kommer til at indtaste en string i balance når personen prøver at oprette en bruger. Dette ville programmet heller ikke kunne klare, da den prøver at parse inputtet til en integer.
